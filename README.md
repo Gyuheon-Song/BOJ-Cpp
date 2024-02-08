@@ -1,4 +1,4 @@
-# Baekjoon_Cpp
+# BOJ-Cpp
 ### in Cpp
 
 ***I had already solved 483 problems when I first made this repo***
