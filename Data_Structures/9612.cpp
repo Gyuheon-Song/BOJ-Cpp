@@ -10,9 +10,9 @@ using std::string;
 int main() {
     std::ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    map<string, int> wordmap;
+    map<string, short> wordmap;
     string s;
-    int n;
+    short n;
     cin >> n;
     while (n--) {
         cin >> s;
@@ -25,7 +25,7 @@ int main() {
     }
 
     auto it = wordmap.begin();
-    int t = 0;
+    short t = 0;
     string ans;
     for (; it != wordmap.end(); ++it) {
         if (it->second >= t) {
